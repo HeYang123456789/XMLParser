@@ -77,6 +77,7 @@ data.xml
 	@end
 	```
 	
+* 2、need import "HYXMLParseProtocol.h"
 	
 	```objc
 	#import "VideoModel.h"
@@ -98,7 +99,7 @@ data.xml
 	
 	```
 
-* 2、User HYXMLParse to Parser XML data
+* 3、User HYXMLParse to Parser XML data
 	
 
 	```objc
