@@ -17,7 +17,7 @@ GitHub：[HeYang](https://github.com/HeYang123456789) ｜ Blog：[HeYang(Chinese
 
 
 ### Manually【手动导入】
-- Drag all source files under floder `HYXMLParser` to your project.【将`HYXMLParser`文件夹中的所有源代码拽入项目中】
+- Drag all source files under floder `HYXMLParserTool` to your project.【将`HYXMLParserTool`文件夹中的所有源代码拽入项目中】
 - Import the main header file：`#import "HYXMLParser.h"`【导入主头文件：`#import "HYXMLParser.h"`】
 
 ```objc
