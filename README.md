@@ -33,7 +33,7 @@ VideoModel.h				VideoModel.m
 data.xml
 ```
 
-* the 'data.xml':
+* the 'data.xml' for example:
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -54,7 +54,7 @@ data.xml
 
 
 
-* 1、At 'VideoModel.h' and 'VideoModel.m'
+* 1、In 'VideoModel.h' and 'VideoModel.m'
 	在模型类中实现协议的方法，字典转模型
 		
 	```objc
