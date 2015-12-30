@@ -99,7 +99,7 @@ data.xml
 	
 	```
 
-* 3、User HYXMLParse to Parser XML data
+* 3、Use  HYXMLParse to Parser XML data
 	
 
 	```objc
