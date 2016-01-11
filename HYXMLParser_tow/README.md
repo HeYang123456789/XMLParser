@@ -1,7 +1,7 @@
 ![](http://img.hoop8.com/attachments/1512/0342032228343.png)
 
 
-HYXMLParser
+HYXMLParser_two
 ===
 - A convenient and nonintrusive XML parser utility for iOS and OSX , based on Apple's NSXMLParser.
 
@@ -26,8 +26,7 @@ HYXMLParser.h				HYXMLParser.m
 
 * My Example Project has this primar files:
 
-```
-HYXMLParserProtocol.h	
+```	
 HYXMLParser.h				HYXMLParser.m
 VideoModel.h				VideoModel.m
 data.xml
@@ -77,29 +76,7 @@ data.xml
 	@end
 	```
 	
-* 2、need import "HYXMLParseProtocol.h"
-	
-	```objc
-	#import "VideoModel.h"
-
-	#import "HYXMLParserProtocol.h"
-
-
-	@interface VideoModel ()<HYXMLParserProtocol>
-
-	@end
-	@implementation VideoModel
-
-
-	-(void)hy_setKeyValues:(NSDictionary*)dic{
-    	[self setValuesForKeysWithDictionary:dic];
-	}
-	
-	@end
-	
-	```
-
-* 3、Use  HYXMLParse to Parser XML data
+* 2、Use  HYXMLParse to Parser XML data
 	
 
 	```objc
