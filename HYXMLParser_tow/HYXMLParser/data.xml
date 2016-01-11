@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<videos>
+	<video id="1" name="小黄人 第01部" length="10" image="resources/images/minion_01.png" url="resources/videos/minion_01.mp4" />
+	<video id="2" name="小黄人 第02部" length="12" image="resources/images/minion_02.png" url="resources/videos/minion_02.mp4" />
+	<video id="3" name="小黄人 第03部" length="14" image="resources/images/minion_03.png" url="resources/videos/minion_03.mp4" />
+	<video id="4" name="小黄人 第04部" length="16" image="resources/images/minion_04.png" url="resources/videos/minion_04.mp4" />
+	<video id="5" name="小黄人 第05部" length="18" image="resources/images/minion_05.png" url="resources/videos/minion_05.mp4" />
+	<video id="6" name="小黄人 第06部" length="20" image="resources/images/minion_06.png" url="resources/videos/minion_06.mp4" />
+	<video id="7" name="小黄人 第07部" length="22" image="resources/images/minion_07.png" url="resources/videos/minion_07.mp4" />
+	<video id="8" name="小黄人 第08部" length="24" image="resources/images/minion_08.png" url="resources/videos/minion_08.mp4" />
+	<video id="9" name="小黄人 第09部" length="26" image="resources/images/minion_09.png" url="resources/videos/minion_09.mp4" />
+	<video id="10" name="小黄人 第10部" length="28" image="resources/images/minion_10.png" url="resources/videos/minion_10.mp4" />
+	<video id="11" name="小黄人 第11部" length="30" image="resources/images/minion_11.png" url="resources/videos/minion_11.mp4" />
+	<video id="12" name="小黄人 第12部" length="32" image="resources/images/minion_12.png" url="resources/videos/minion_12.mp4" />
+	<video id="13" name="小黄人 第13部" length="34" image="resources/images/minion_13.png" url="resources/videos/minion_13.mp4" />
+	<video id="14" name="小黄人 第14部" length="36" image="resources/images/minion_14.png" url="resources/videos/minion_14.mp4" />
+	<video id="15" name="小黄人 第15部" length="38" image="resources/images/minion_15.png" url="resources/videos/minion_15.mp4" />
+	<video id="16" name="小黄人 第16部" length="40" image="resources/images/minion_16.png" url="resources/videos/minion_16.mp4" />
+</videos>
