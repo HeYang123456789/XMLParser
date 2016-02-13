@@ -19,7 +19,9 @@ A convenient and nonintrusive XML parser utility for iOS and OSX , based on Appl
 ```objc
 // need Model Class Name(VideoMolel) and XML ChildElementName(video)
 //1、创建HYXMLParse对象，
-//需要传入Model Class Name 和 XML 需要解析的节点的名 video 以及 字典转模型的方法
+//参数：1、Model Class Name
+//     2、XML 需要解析的节点的名 video
+//     3、通过block传递字典转模型的方法 ---> 根据实际需求，可以用KVC也可以用MJExtension
 HYXMLParser* parser = [[HYXMLParser alloc] initWithModelClassName:@"VideoModel" withElementName:@"video" modelFromBlock:^(NSDictionary<NSString *,NSString *> *dataDic, id model) {
 	// 第一种字典转模型：KVC
 	// [model setValuesForKeysWithDictionary:dataDic];
