@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+
 #import "HYXMLParser.h"
 
 
@@ -25,11 +26,11 @@
     
     //假设这个data是来自服务器端，那么我们就直接使用HYXMLParse解析这个data
     
-    //1、创建HYXMLParse对象，需要传入Model Class Name 和 XML 子节点的名 video
+    //1、创建HYXMLParse对象，需要传入Model Class Name 和 XML 需要解析的节点的名 video
     HYXMLParser* parser = [[HYXMLParser alloc] initWithModelClassName:@"VideoModel" withElementName:@"video"];
     
     //NSData -> NSMutableArray of models
-    NSMutableArray* models = [parser objectFromData:data];
+    NSMutableArray* models = [parser modelsArrayFromData:data];
     
     NSLog(@"%@",models);
 }

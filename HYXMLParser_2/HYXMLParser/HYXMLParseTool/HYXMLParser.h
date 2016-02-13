@@ -18,6 +18,6 @@
 
 #pragma mark - parser xml data
 /** 通过NSData解析XML数据，返回模型数组 */
--(NSMutableArray*)objectFromData:(NSData*)data;
+-(NSMutableArray*)modelsArrayFromData:(NSData*)data;
 
 @end

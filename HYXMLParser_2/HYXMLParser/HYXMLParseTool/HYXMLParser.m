@@ -45,7 +45,7 @@
  * 1、传入NSData 2、创建NSXMLParser对象 3、设置代理，并实现代理的相关方法 
  * 4、开始解析，从根元素开始，按顺序一个元素一个元素往下解析 5、返回解析XML后获取的数据对象
  */
--(NSMutableArray*)objectFromData:(NSData*)data{
+-(NSMutableArray*)modelsArrayFromData:(NSData*)data{
     NSXMLParser *parse = [[NSXMLParser alloc] initWithData:data];
     parse.delegate = self;
     [parse parse];
